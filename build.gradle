@@ -19,6 +19,8 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://cdn.veriff.me/android/' }
+        maven { url 'http://dl.bintray.com/argo/sdk' }
     }
 }
 
